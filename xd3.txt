@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio 3 - Menú Digital QR</title>
+  <!-- Método 3 (NPM): Ruta producida tras compilar -->
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body class="bg-light p-3">
+
+  <div class="container bg-white p-4 rounded shadow-sm text-center" style="max-width: 600px;">
+    
+    <!-- Menú Horizontal sin viñetas -->
+    <ul class="list-inline text-uppercase fw-bold text-primary mb-3 border-bottom pb-2 small">
+      <li class="list-inline-item me-3">Entradas</li>
+      <li class="list-inline-item me-3 text-dark border-bottom border-2 border-dark">Platos Fuertes</li>
+      <li class="list-inline-item me-3">Postres</li>
+      <li class="list-inline-item me-3">Bebidas</li>
+    </ul>
+
+    <h1 class="display-6 fw-bold text-dark mb-4">Platos Principales</h1>
+
+    <!-- Lista de Platos Limpia -->
+    <ul class="list-unstyled text-start">
+      <li class="mb-3 border-bottom pb-2">
+        <p class="h4 fw-bold text-dark mb-0 d-flex justify-content-between">
+          <span>1. Lomo Salteado Gourmet</span>
+          <span class="text-success">$18.50</span>
+        </p>
+        <p class="fst-italic text-muted small mb-0">Trozos de lomo de res, cebolla morada, tomate y papas nativas.</p>
+      </li>
+
+      <li class="mb-2">
+        <p class="h4 fw-bold text-dark mb-0 d-flex justify-content-between">
+          <span>2. Risotto de Champignones</span>
+          <span class="text-success">$16.00</span>
+        </p>
+        <p class="fst-italic text-muted small mb-0">Arroz arborio, setas silvestres y queso parmesano madurado.</p>
+      </li>
+    </ul>
+
+  </div>
+
+</body>
+</html>
